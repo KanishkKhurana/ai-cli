@@ -1,0 +1,13 @@
+[package]
+name = "cli-ai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chatgpt_rs = "1.2.3"
+clap = { version = "4.5.16", features = ["cargo", "derive"] }
+exitfailure = "0.5.1"
+reqwest = {version="0.12.5", features=["json"]}
+serde = "1.0.208"
+serde_json = "1.0.125"
+tokio = {version="1.39.3", features = ["full"]}
